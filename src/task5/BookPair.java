@@ -16,4 +16,12 @@ public class BookPair {
     public String getAutor() {
         return autor;
     }
+
+    @Override
+    public String toString() {
+        return "Книга:" +
+                "Название - " + name + '.' +
+                "Автор - " + autor +
+                '.';
+    }
 }
