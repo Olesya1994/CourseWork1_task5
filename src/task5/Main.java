@@ -5,8 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
         bookPairs[0] = new BookPair("Анна каренина", "Л.Н. Толстой");
-        bookPairs[1] = new BookPair("Мастер и Маргарита", "М.А. Булгаков");
-        bookPairs[2] = new BookPair("Преступление и Наказание", "Ф.М. Достоевский");
+        bookPairs[1] = new BookPair("Преступление и Наказание", "Ф.М. Достоевский");
+        bookPairs[2] = new BookPair("Мастер и Маргарита", "М.А. Булгаков");
         printBooks();
     }
 
